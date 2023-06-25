@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Abrsh portfolio</title>
+    <script src="https://kit.fontawesome.com/2abc03b551.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Xo9//logo.png" alt="" class="logo">
+                <ul id="sideMenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1><br>Hi, I'm <span>Abrham</span><br> from Ethiopia</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Xo9/abxo9.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                        <h1 class="subtitle">About me</h1>
+                        <p>Hey, my name is Abrham Belayineh and I use Abrsh as my nickname across social medias. I am a programmer full stack web developer from Ethiopia. I am also passionate about pop music and I’m always curious to learn more when it comes to new technologies and creative coding.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming language</span><br> python,java,c++</li>
+                                <li><span>Fullstack web development</span><br> web app development</li>
+                                <li><span>Mobile app development</span><br> building Android/IOS apps</li>    
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 </span><br> Orange python</li>
+                                <li><span>2023</span><br> web development projects</li>
+                                <li><span>2023</span><br> flutter and dart mobile app </li>    
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Programming language course</span><br> python,java,c++,php,js,html</li>
+                                <li><span>Advanced database</span><br> mysql,mongodb</li>
+                                <li><span>Mobile app development</span><br>dart,java</li>    
+                            </ul>
+                        </div>
+                    </div>
+            </div>   
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Building dynamic and functional web applications using a variety of technologies and frameworks, including Node.js and React.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Mobile app Design</h2>
+                    <p>Crafting intuitive and visually appealing Android applications that deliver seamless user experiences and designing user interfaces that are both aesthetically pleasing and highly functional.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-desktop"></i>
+                    <h2>Desktop App Development</h2>
+                    <p>Creating powerful and intuitive desktop applications tailored to your specific needs. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My work</h1>
+            <div class="work-list"> 
+                <div class="work">
+                    <img src="Xo9/weather.png" alt="">
+                    <div class="layer">
+                        <a href="#"><i class="fa-solid fa-cloud"></i></a>
+                        <h3>Weather forcast</h3>
+                        <p>website offers a user-friendly interface designed to make your weather exploration a seamless and enjoyable experience. From local weather conditions to global forecasts, we have you covered with our extensive range of features.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Xo9/task manager.jpg" alt="">
+                    <div class="layer">
+                        <a href="#"><i class="fa-solid fa-list-check"></i></a>
+                        <h3>Task manager</h3>
+                        <p>Our task manager website offers a clean and intuitive interface, designed to make task management effortless and enjoyable. With powerful features and seamless navigation, you'll be able to tackle your tasks with ease and focus on what truly matters.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Xo9/chat app.jpg" alt="">
+                    <div class="layer">
+                        <a href="#"><i class="fa-duotone fa-comments"></i></a>
+                        <h3>Chat App</h3>
+                        <p>This website offers a sleek and intuitive interface, making it effortless to navigate and engage in conversations. Connect with friends, family, colleagues, and even meet new people in our vibrant and inclusive community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titles">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> abrsh6266@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +251967904987</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100034253550916"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="http://t.me/abxo9"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.linkedin.com/in/abrham-belayineh-190658258/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Xo9/Abrham Belayineh CV.pdf" download   class="btn"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="10" placeholder="your massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p><i class="fa-solid fa-laptop-code"></i> By Abrsh XO9</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sideMenu = document.getElementById("sideMenu")
+         
+        function openMenu(){
+            sideMenu.style.right = "0";
+        }
+        function closeMenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby2FS0Vi6oN7gLNADTv45HndIZt2LbQiZ8lnIBaBg35gHf902J--A0UIBJYEbu0j3qAnQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!";
+                setTimeout(()=>{
+                    msg.innerHTML="";
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
